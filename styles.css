@@ -33,18 +33,13 @@ a{
 }
 
 body{
-    display: flex;
     background-color: #340e2f;
 
-    justify-content: center;
-    align-items: center;
-
-    padding: 3rem;
+    padding: 3rem 9rem 3rem 9rem;
     border-radius: 3rem;
 
     box-shadow: 0px 0px 3rem inset;
 
-    outline: 5px solid blue;
 }
 
 #main-container{
@@ -55,15 +50,15 @@ body{
 
     background-color: #4f1862;
 
-    max-width: 90%;
+    /* max-width: 90%; */
     max-height: 100%;
+    margin: 0 auto;
     padding: 1rem;
 
     border-radius: 2rem ;
     border: 3px dashed #340e2f;
 
     box-shadow: 0px 0px 1rem ;
-    outline: 5px solid red;
 }
 
 #left-container, #right-container{
